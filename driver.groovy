@@ -1,8 +1,8 @@
 /**
  * Driver:     Yamaha AVR
  * Author:     Mirco Caramori
- * Repository: https://github.com/mircolino/yamaha/tree/main
- * Import URL: https://raw.githubusercontent.com/mircolino/yamaha/main/driver.groovy
+ * Repository: https://github.com/padus/yamaha/tree/main
+ * Import URL: https://raw.githubusercontent.com/padus/yamaha/main/driver.groovy
  *
  * Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except
  * in compliance with the License. You may obtain a copy of the License at:
@@ -15,19 +15,19 @@
  *
  */
 
-public static String version() { return "v1.0.16"; }
+public static String version() { return "v1.0.18"; }
 
 /**
  * Change Log:
  *
  * 2021.04.10 - Initial implementation
- *
+ * 2021.08.18 - Relocated repository: mircolino -> padus
  */
 
 // Metadata -------------------------------------------------------------------------------------------------------------------
 
 metadata {
-  definition(name: "Yamaha AVR", namespace: "mircolino", author: "Mirco Caramori", importUrl: "https://raw.githubusercontent.com/mircolino/yamaha/main/driver.groovy") {
+  definition(name: "Yamaha AVR", namespace: "mircolino", author: "Mirco Caramori", importUrl: "https://raw.githubusercontent.com/padus/yamaha/main/driver.groovy") {
     capability "Actuator";
     capability "Switch";
     capability "AudioVolume";
